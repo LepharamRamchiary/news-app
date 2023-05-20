@@ -1,6 +1,6 @@
 import { Bars3Icon } from "@heroicons/react/24/solid";
 import Link from "next/link";
-import NavLink from "./NavLink";
+import NavLink from "./NavLinks";
 
 function Header() {
   return (
