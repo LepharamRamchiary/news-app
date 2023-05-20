@@ -1,11 +1,17 @@
-import React from 'react';
 
-function NavLink() {
+
+type Props = {
+    category: string;
+    isActive: boolean;
+};
+
+
+function Navlink({category, isActive}: Props) {
   return (
-    <nav>
-      Hello wrold
-    </nav>
+    <div>
+      NavLink
+    </div>
   )
 };
 
-export default NavLink;
+export default Navlink;
